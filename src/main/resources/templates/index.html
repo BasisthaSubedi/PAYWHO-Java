@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAYWHO - Expense Splitting App</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <div class="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
+        <div class="max-w-md w-full bg-white rounded-lg shadow-lg p-8 text-center">
+            <div class="mb-8">
+                <h1 class="text-4xl font-bold text-gray-900 mb-2">PAYWHO</h1>
+                <p class="text-gray-600">Split expenses easily with friends</p>
+            </div>
+            
+            <div class="space-y-4">
+                <a href="/create-trip"
+                   class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-200 block">
+                    Start New Trip
+                </a>
+                
+                <div class="text-sm text-gray-500">
+                    Create a trip, add participants, track expenses, and settle up!
+                </div>
+            </div>
+            
+            <div class="mt-8 pt-6 border-t border-gray-200">
+                <h3 class="text-sm font-medium text-gray-900 mb-3">Features:</h3>
+                <ul class="text-sm text-gray-600 space-y-1">
+                    <li>✓ Add trip participants</li>
+                    <li>✓ Track shared expenses</li>
+                    <li>✓ Automatic calculations</li>
+                    <li>✓ Settlement suggestions</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
